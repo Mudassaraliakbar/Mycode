@@ -1,0 +1,134 @@
+.deal {
+    overflow: hidden;
+  }
+  
+  .deal .heading {
+    margin-top: 80px;
+    margin-bottom: 64px;
+    font-size: 64px;
+    letter-spacing: -2px;
+  }
+  
+  .deal .card {
+    height: 520px;
+    overflow: hidden;
+
+  }
+  
+  .deal .card .badge {
+    font-size: 14px;
+    letter-spacing: -0.78px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(92.4000015258789px);
+    padding: 7.5px 15.5px !important;
+    margin: 12px;
+  }
+  
+  .deal .card .card-details {
+    background-color: var(--button);
+    padding-inline: 13px;
+    margin-bottom: 12px;
+    backdrop-filter: blur(92.4000015258789px);
+    border-radius: 12px;
+  }
+  
+  .deal .card .card-details .card-time-secure {
+    width: 160px;
+  }
+  
+  .deal .card .card-details .card-pricing {
+    width: calc(100% - 176px);
+  }
+  
+  .deal .card .card-details .card-title {
+    font-size: 20px;
+  }
+  
+  .deal .card .card-details .card-title span {
+    font-size: 26px;
+  }
+  
+  .deal .card .card-details .card-text {
+    font-size: 18px;
+    line-height: 18px;
+    max-width: 100%;
+  }
+  
+  .deal .card .card-details a {
+    padding: 14px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(148.6695556640625px);
+    border-radius: 10px;
+    text-wrap: nowrap;
+  }
+  
+  .deal .card .card-details .card-timer {
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(148.6695556640625px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .deal .heading {
+      margin-block: 32px;
+      letter-spacing: -1px;
+      font-size: 28px;
+      line-height: 36px;
+      font-weight: 600 !important;
+    }
+  
+    .deal .card {
+      height: 380px;
+    }
+  
+    .deal .card .badge {
+      font-size: 12px;
+      letter-spacing: -0.5px;
+    }
+  
+    .deal .card .card-details {
+      padding-inline: 8.5px;
+      margin-bottom: 5px !important;
+      border-radius: 7px;
+    }
+  
+    .deal .card .card-details .card-time-secure {
+      width: 120px;
+    }
+  
+    .deal .card .card-details .card-pricing {
+      width: calc(100% - 136px) !important;
+    }
+  
+    .deal .card .card-details .card-title {
+      font-size: 13px !important;
+    }
+  
+    .deal .card .card-details .card-title span {
+      font-size: 17px !important;
+    }
+  
+    .deal .card .card-details .card-text {
+      font-size: 13px !important;
+      line-height: 15px;
+      letter-spacing: -2%;
+      max-width: 100%;
+    }
+  
+    .deal .card .card-details a {
+      padding: 10px !important;
+    }
+  
+    .deal .card .card-details .card-timer {
+      font-size: 10px !important;
+      font-weight: 300;
+    }
+  
+    .deal .card .card-details .card-timer span {
+      font-size: 14px;
+    }
+  }
+  
